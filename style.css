@@ -1,3 +1,59 @@
 body{
     color: white;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+h1 span{
+    color: blue;
+    font-weight: 900;
+}
+.heros{
+    display: flex;
+}
+.heros1{
+    display: flex;
+    flex-direction: column;
+}
+.about span{
+    font-weight: 700;
+    justify-content: center;
+}
+#projects{
+    display: flex;
+
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px;
+}
+.tech-used-project span{
+    background-color: grey;
+    color: black;
+    border-radius: 10px;
+}
+#contact{
+    display: flex;
+}
+label input{
+    border: 1.5px solid;
+    border-color: blue;
+    border-radius: 20px;
+}
