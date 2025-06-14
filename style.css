@@ -1,24 +1,43 @@
 body{
-    color: white;
+    width: 95%;
+    margin: auto;
+    color: rgb(12, 12, 12);
+    background-color: rgb(205, 216, 225);
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 0.1px solid grey;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    border-radius: 30px;
+    background-color: rgba(127, 139, 169, 0.25);
 }
 .logo{
-    width: 100px;
-    height: 100px;
+ 
 }
 .logo img{
-    width: 100%;
+    width: 80px;
+    height: 50px;
 }
-nav{
-    gap: 20px;
+.call-2-action a{
+    color: white;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 nav a{
     text-decoration: none;
     color: black;
+    margin-right: 30px;
+}
+nav a:hover{
+    cursor: pointer;
+    color: blue;
+
+
 }
 h1 span{
     color: blue;
@@ -26,34 +45,191 @@ h1 span{
 }
 .heros{
     display: flex;
+    padding: 10px;
+    border-bottom: 1px solid grey;
 }
-.heros1{
+.hero1{
+    width: 50%;
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
+    margin-top: 70px;
 }
-.about span{
+.hero1 h1{
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 3em;
+}
+.call-2-action{
+  
+    padding-left: 10px;
+   align-items: center;
+}
+#view-work:hover{
+
+    background-color: blue;    
+}
+#contact-me:hover{
+    background-color: blue;    
+}
+#view-work,#contact-me{
+    background-color: cadetblue;
+    text-decoration: none;
+    border-radius: 30px;
+    
+  /* padding: 5px; */
+    
+}
+.hero2{
+    width: 50%;
+    margin-right: 0;
+    /* border: 2px solid rgb(132, 16, 16); */
+    box-shadow:  10px 10px 10px;
+       
+
+}
+.hero2 img{
+    width: 100%;
+}
+
+#about{
+    margin-top: 20px;
+
+}
+.tit{
+    margin-top: 30px;
+   text-align: center;
+   padding: 30px;
+}
+.tit span{
     font-weight: 700;
-    justify-content: center;
+    font-size: 1em;
 }
 #projects{
     display: flex;
+    flex-direction: column;
 
+}
+.info:hover{
+    box-shadow: 1px 2px 5px;
+}
+.info{
+    color: white;
+    padding: 20px;
+    background:linear-gradient(to bottom,#0006,rgb(62, 48, 48)) ;
 }
 .project{
     display: flex;
     flex-direction: column;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 1px 1px 5px;
 }
 .tech-used-project span{
     background-color: grey;
     color: black;
     border-radius: 10px;
 }
+.wk{
+    color: magenta;
+    font-size: 2em;
+}
+.proj1{
+    gap: 40px;
+    display: flex;
+}
 #contact{
     display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.contact{
+    display: flex;
+
 }
 label input{
     border: 1.5px solid;
     border-color: blue;
     border-radius: 20px;
+    padding: 5px;
+
+}
+.side-side{
+    display: flex;
+}
+.project{
+    border-radius: 5px;
+    padding: 10px;
+}
+form{
+    border: 2px solid blue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    border-radius: 5px;
+    text-align: center;
+        background: linear-gradient(to right,red, blue, rgb(255, 216, 192));
+
+    
+}
+form textarea{
+    height: 100px;
+
+}
+form label{
+    color: bisque;
+}
+.img img{
+    width: 300px;
+}
+.comtacing-mtd{
+    padding: 30px;
+    width: 45%;
+}
+form button{
+    border-radius: 5px;
+    margin: auto;
+    width: 150px;
+    padding: 5px;
+}
+form button:hover{
+    background-color: pink;
+}
+.cont,.proj,.tit{
+    text-align: center;
+    padding: 20px;
+}
+.cont span,.proj span,.tit span{
+    font-weight: 900;
+    font-size: 2em;
+}
+.tech-used-project span{
+    padding: 5px;
+   margin-left: 30px;
+    gap: 5px;
+    
+}
+.tech-used-project{
+    margin-bottom: 10px;
+   
+}
+#live:hover{
+    background-color: blue;
+}
+#code:hover{
+    background-color: blue;
+}
+.bott a{
+    border: 1px solid #0006;
+    margin-top: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.bott{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
 }
